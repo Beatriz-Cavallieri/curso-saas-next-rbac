@@ -9,6 +9,11 @@
         "@repo/typescript-config": "workspace:*"
     },
     "eslintConfig": {
-        "extends": ["@repo/eslint-config/library"]
+        "extends": [
+            "@repo/eslint-config/library"
+        ]
+    },
+    "dependencies": {
+        "@casl/ability": "^6.7.3"
     }
 }
